@@ -1,0 +1,77 @@
+{
+    "jobs":[
+        "Biologist",
+        "CEO",
+        "Astronaut",
+        "Doctor",
+        "Programmer",
+        "Literature Professor",
+        "Physicist",
+        "Midwife",
+        "Cyber security expert",
+        "Assassin working for the gov"
+    ],
+    "questions":[
+        [
+            {"question":"What is your favorite subject at school?"},
+            [
+                ["Science","Biologist"],["Mathematics","CEO"],["Biology","Astronaut"],["Anatomy ","Doctor"],["Computer Science","Programmer"],["Literature","Literature Professor"],["Physics","Physicist"],["Anatomy sciences","Midwife"],["Mathematics and Computer Science","Cyber security expert"],["PE","Assassin working for the gov"]
+            ]
+        ],
+        [
+            {"question":"What is your favorite hobby?"},
+            [
+                ["Explore the nature","Biologist"],["Organize things","CEO"],["Experiment","Astronaut"],["Observing things with a microscope","Doctor"],["Create new things","Programmer"],["Danse","Literature Professor"],["Read books about sciences","Physicist"],["Take care of kids","Midwife"],["Programming","Cyber security expert"],["Killing","Assassin working for the gov"]
+            ]
+        ],
+        [
+            {"question":"What’s your favorite animal?"},
+            [
+                ["Parrots","Biologist"],["Lion","CEO"],["Dog","Astronaut","Cyber security expert"],["A manta ray","Doctor"],["Cats","Programmer","Physicist"],["Peacock","Literature Professor"],["Dove","Midwife"],["Crow","Assassin working for the gov"]
+            ]
+        ],
+        [
+            {"question":"What do you like to watch on TV?"},
+            [
+                ["Science documentary","Biologist"],["Trading documentary","CEO"],["Science documentary","Astronaut"],["Reportage about hospitals","Doctor"],["New tech reviews","Programmer"],["Competition dance","Literature Professor"],["Science documentary","Physicist"],["Pregnancy series","Midwife"],["Information","Cyber security expert"],["Informations about new target","Assassin working for the gov"]
+            ]
+        ],
+        [
+            {"question":"How would people describe you?"},
+            [
+                ["","Biologist"],["Smily and generous","CEO"],["A genius","Astronaut"],["helpful, patient and human","Doctor"],["Who complicate everything for nothing","Programmer"],["Energic","Literature Professor"],["Smart and serious","Physicist"],["Gentle, protective, patient","Midwife"],["Protective and attentive","Cyber security expert"],["A misunderstood genius","Assassin working for the gov"]
+            ]
+        ],
+        [
+            {"question":"Where do you see yourself working?"},
+            [
+                ["","Biologist"],["In an office","CEO"],["In the space","Astronaut"],["In stress","Doctor"],["In front of a computer","Programmer"],["School","Literature Professor"],["In a laboratory","Physicist"],["Maternity","Midwife"],["In Buckingham Palace","Cyber security expert"],["Constantly changing places","Assassin working for the gov"]
+            ]
+        ],
+        [
+            {"question":"You prefer to work … (alone/as a team …)"},
+            [
+                ["","Biologist"],["In groups","CEO"],["With a team","Astronaut"],["With new person every days","Doctor"],["In groups","Programmer"],["Alone","Literature Professor"],["As a team","Physicist"],["In a team","Midwife"],["Alone/rarely in team","Cyber security expert"],["Alone","Assassin working for the gov"]
+            ]
+        ],
+        [
+            {"question":"What did you like to play at when you were a child?"},
+            [
+                ["","Biologist"],["Create things","CEO"],["Astronaut","Astronaut"],["Treat dolls","Doctor"],["Tag","Programmer"],["Teacher","Literature Professor"],["Chess","Physicist"],["take care of fake babies","Midwife"],["Programming","Cyber security expert"],["Fencing / Parkour","Assassin working for the gov"]
+            ]
+        ],
+        [
+            {"question":"What’s most important in a job?"},
+            [
+                ["","Biologist"],["The gestion","CEO"],["Enjoyment","Astronaut"],["Be Useful","Doctor"],["Socials interactions","Programmer"],["Passion","Literature Professor"],["Learn new things","Physicist"],["Love the job and help people","Midwife"],["Help people","Cyber security expert"],["Enjoyment","Assassin working for the gov"]
+            ]
+        ],
+        [
+            {"question":"What food do you like best?"},
+            [
+                ["","Biologist"],["Lasagna","CEO"],["Tin box","Astronaut"],["Soup","Doctor"],["Rice with tomato","Programmer"],["Love apple","Literature Professor"],["Chocolate cake","Physicist"],["Sushis","Midwife"],["Gourmet food","Cyber security expert"],["nothing in special","Assassin working for the gov"]
+                    
+            ]
+        ]
+    ]
+}

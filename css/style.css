@@ -1,0 +1,154 @@
+body{
+    background-color: #151d1c;
+}
+
+@font-face {
+    font-family: monofonto;
+    src: url(font/monofonto\ rg.otf);
+}
+
+
+.title{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 50px;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.349);
+}
+
+div.questionDiv{
+    text-align: center;
+    /* border: 5px solid rgb(43, 46, 226); */
+}
+
+div#answersDiv{
+    display: inline-table;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+     margin: auto;
+     top: 50px;
+     right: 0;
+     bottom: 0;
+     left: 0;
+    /* border: 5px solid blueviolet; */
+    max-width: 70%;
+    overflow:scroll;
+    margin-top: 0px;
+}
+
+div#startDiv{
+    /* Center Div horizontaly and verticaly */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: white 3px solid;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: black 20px 20px 5px;
+}
+
+div#endDiv{
+    /* Center Div horizontaly and verticaly */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: white 3px solid;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: black 20px 20px 5px;
+}
+
+h1#websiteTitle{
+    font-family: monofonto;
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.349);
+    margin-top: 10px;
+}
+
+span#websiteSubtitle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.349);
+}
+
+button.actionQuizButton{
+    background-color: #175e55;
+    color: white;
+    font-family: monofonto;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.349);
+    border: white 3px solid;
+    box-shadow: black 5px 5px 5px;
+    transition: 0.5s;
+}
+
+button.actionQuizButton:hover{
+    background-color: #1f3d39;
+    box-shadow: black 0 0 0;
+    transform: translate(5px, 5px);
+    transition: 0.5s;
+}
+
+div.actionButtons{
+    /* border: 5px solid rgb(214, 226, 43); */
+    margin: 10px;
+}
+
+div#buttons{
+    /* border: 5px solid rgb(43, 226, 58); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+button.rateButtons{
+    width: 175px;
+    height: 175px;
+    border-radius: 20px;
+    margin: 10px;
+    font-family: monofonto;
+    font-size: 5px;
+    font-size: x-large;
+    transition: 0.5s;
+    color: aliceblue;
+    border: 5px solid rgb(239, 240, 245);
+    text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.63);
+    box-shadow: rgba(0, 0, 0, 0.671) 10px 10px 5px;
+}
+
+button.rateButtons:hover{
+    transition: 0.5s;
+    /* border: 4px solid rgb(63, 63, 63); */
+    box-shadow: rgba(0, 0, 0, 0.671) 0 0 0;
+    transform: translate(5px, 5px);
+    filter: brightness(0.9);
+}
+
+button#skipButton{
+    background-color:rgb(100, 101, 102);
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding:5px;
+    font-size: medium;
+    border: 5px solid rgb(239, 240, 245);
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.671) 0px 10px 5px;
+}
+
+button#skipButton:hover{
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.671) 0px 0px 5px;
+    transform: translate(0px, 5px);
+    border: 3px solid rgb(239, 240, 245);
+    filter: brightness(0.8);
+}

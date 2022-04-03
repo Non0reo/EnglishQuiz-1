@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Job Quiz</title>
+</head>
+<body>
+    <div id="startDiv">
+        <h1 id="websiteTitle">
+            Welcome to the Job Quiz!<br>
+        </h1>
+        <span id="websiteSubtitle">Please answer the following questions to find out your ideal job!</span><br>
+        <button class="actionQuizButton" onclick="startQuiz()">Click here to start the quiz</button>
+    </div>
+    <div id="endDiv">
+        <h1 id="websiteTitle">
+            According to our quiz, you sould be a<span id="job"></span><br>
+        </h1>
+        <!-- <span id="websiteSubtitle">Your results are as follows:</span><br> -->
+        <span id="endScore"></span><br>
+        <button class="actionQuizButton" onclick="restartQuiz()">Click here to restart the quiz</button>
+    </div>
+    <div id="answersDiv">
+        <div class="questionDiv">
+            <h1 class="title"></h1>
+        </div>
+
+        <div id="buttons">
+        </div>
+
+        <div class="actionButtons">
+            <button id="skipButton" onclick="clickAnswer(this, null)">Skip Question →</button>
+        </div>
+    </div>
+</body>
+    <script type="text/javascript" src="list.json"></script>
+    <script src="js/index.js"></script>
+</html>
