@@ -18,15 +18,17 @@ async function setContent(file, questionNumber) {
     questionTitle.innerHTML = questionInfos[0].question;
     let answers = questionInfos[1];
     answers = shuffleArrys(answers);
-    questionLength = answers.length;
+    questionLength = data["questions"].length;
     for (const iterator of answers) {
-      let newButton = document.createElement("button");
-      newButton.innerHTML = iterator[0];
-      newButton.style.backgroundColor = `hsl(${Math.floor(Math.random() * 357)}, 30%, 40%)`;
-      newButton.setAttribute("class", "rateButtons");
-      iterator.shift();
-      newButton.setAttribute("onclick", `clickAnswer(this, "${iterator.toString().replace(",", "_")}")`);
-      document.getElementById("buttons").appendChild(newButton);
+      if(iterator[0] != "") {
+        let newButton = document.createElement("button");
+        newButton.innerHTML = iterator[0];
+        newButton.style.backgroundColor = `hsl(${Math.floor(Math.random() * 357)}, 30%, 40%)`;
+        newButton.setAttribute("class", "rateButtons");
+        iterator.shift();
+        newButton.setAttribute("onclick", `clickAnswer(this, "${iterator.toString().replaceAll(",", "_")}")`);
+        document.getElementById("buttons").appendChild(newButton);
+      }
     }
   });
 }

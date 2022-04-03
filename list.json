@@ -15,7 +15,7 @@
         [
             {"question":"What is your favorite subject at school?"},
             [
-                ["Science","Biologist"],["Mathematics","CEO"],["Biology","Astronaut"],["Anatomy ","Doctor"],["Computer Science","Programmer"],["Literature","Literature Professor"],["Physics","Physicist"],["Anatomy sciences","Midwife"],["Mathematics and Computer Science","Cyber security expert"],["PE","Assassin working for the gov"]
+                ["Science","Biologist"],["Mathematics","CEO"],["Biology","Astronaut"],["Anatomy ","Doctor"],["Computer Science","Programmer","Cyber security expert"],["Literature","Literature Professor"],["Physics","Physicist"],["Anatomy sciences","Midwife"],["PE","Assassin working for the gov"]
             ]
         ],
         [
@@ -33,7 +33,7 @@
         [
             {"question":"What do you like to watch on TV?"},
             [
-                ["Science documentary","Biologist"],["Trading documentary","CEO"],["Science documentary","Astronaut"],["Reportage about hospitals","Doctor"],["New tech reviews","Programmer"],["Competition dance","Literature Professor"],["Science documentary","Physicist"],["Pregnancy series","Midwife"],["Information","Cyber security expert"],["Informations about new target","Assassin working for the gov"]
+                ["Science documentary","Biologist","Physicist","Astronaut"],["Trading documentary","CEO"],["Reportage about hospitals","Doctor"],["New tech reviews","Programmer"],["Competition dance","Literature Professor"],["Pregnancy series","Midwife"],["Information","Cyber security expert"],["Informations about new target","Assassin working for the gov"]
             ]
         ],
         [
@@ -51,7 +51,7 @@
         [
             {"question":"You prefer to work … (alone/as a team …)"},
             [
-                ["","Biologist"],["In groups","CEO"],["With a team","Astronaut"],["With new person every days","Doctor"],["In groups","Programmer"],["Alone","Literature Professor"],["As a team","Physicist"],["In a team","Midwife"],["Alone/rarely in team","Cyber security expert"],["Alone","Assassin working for the gov"]
+                ["","Biologist"],["In groups","CEO","Programmer"],["With a team","Astronaut"],["With new person every days","Doctor"],["Alone","Literature Professor","Assassin working for the gov"],["In a team","Midwife","Physicist"],["Alone/rarely in team","Cyber security expert"]
             ]
         ],
         [
