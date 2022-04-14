@@ -50,10 +50,13 @@ function clickAnswer(button, subject) {
     skipButton.style.display = "none";
     endDiv.style.display = "unset";
     questionTitle.innerHTML = "";
-    if(mostRecurentItemInArray(jobsGot) != null) job.innerHTML = ` ${mostRecurentItemInArray(jobsGot)}`;
+    if(mostRecurentItemInArray(jobsGot) != null) {
+      endDiv.children[0].innerHTML = `According to our quiz, you could be a<span id="job"></span>`;
+      job.innerHTML = ` ${mostRecurentItemInArray(jobsGot)}`;
+    }
     else {
       job.innerHTML = "";
-      endDiv.children[0].innerHTML = `How do you want me to tell you what should your job if you keep clicking on skip?`;
+      endDiv.children[0].innerHTML = `How do you want me to tell you what should your job if you keep clicking on skip?<span id="job"></span>`;
     }
     //endDiv.innerHTML = `<h1>${mostRecurentItemInArray(jobsGot)}</h1>`;
   }
