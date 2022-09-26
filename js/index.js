@@ -56,7 +56,7 @@ function clickAnswer(button, subject) {
     }
     else {
       job.innerHTML = "";
-      endDiv.children[0].innerHTML = `How do you want me to tell you what should your job if you keep clicking on skip?<span id="job"></span>`;
+      endDiv.children[0].innerHTML = `How do you want me to tell you what should your job be if you keep clicking on skip?<span id="job"></span>`;
     }
     //endDiv.innerHTML = `<h1>${mostRecurentItemInArray(jobsGot)}</h1>`;
   }
